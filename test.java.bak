@@ -14,15 +14,15 @@ public class test
 //            char ch = (char) (65+a);
 //            System.out.println("a="+a+", char="+ch);
         
-        // call for input
-        if (args.length<2)
-        {
+        if (args.length<2){
             System.out.println("Test <location> <inventory>");
             System.exit(1);
         }
         
         System.out.println("The result of test location: " + args[0]);
         System.out.println("The result of test count: " + args[1]);
+        
+
     }
 
 }
